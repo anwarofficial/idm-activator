@@ -3,20 +3,6 @@
 @echo off
 
 
-
-::============================================================================
-::
-::   IDM Activation Script (IAS)
-::
-::   Homepages: https://github.com/WindowsAddict/IDM-Activation-Script
-::              https://massgrave.dev/idm-activation-script
-::
-::       Email: windowsaddict@protonmail.com
-::
-::============================================================================
-
-
-
 ::  To activate, run the script with "/act" parameter or change 0 to 1 in below line
 set _activate=0
 
@@ -287,7 +273,7 @@ echo:
 call :_color %_Green% "Enter a menu option in the Keyboard [1,0] :"
 choice /C:10 /N
 if !errorlevel!==2 rem
-if !errorlevel!==1 (start https://github.com/WindowsAddict/IDM-Activation-Script & start %mas%/idm-activation-script & exit /b)
+if !errorlevel!==1 (start https://github.com/anwarofficial/idm-activator & start %mas%/idm-activation-script & exit /b)
 )
 )
 
@@ -399,7 +385,7 @@ if not defined terminal mode 75, 28
 echo:
 echo:
 echo:
-echo:
+echo:			     Wellcome To Creatives iT
 echo:
 echo:                This script is NOT working with latest IDM.     
 echo:            ___________________________________________________ 
@@ -419,7 +405,7 @@ choice /C:123450 /N
 set _erl=%errorlevel%
 
 if %_erl%==6 exit /b
-if %_erl%==5 start https://github.com/WindowsAddict/IDM-Activation-Script & start https://massgrave.dev/idm-activation-script & goto MainMenu
+if %_erl%==5 start https://github.com/anwarofficial/idm-activator & start https://creativesit.com & goto MainMenu
 if %_erl%==4 start https://www.internetdownloadmanager.com/download.html & goto MainMenu
 if %_erl%==3 goto _reset
 if %_erl%==2 (set frz=0&goto :_activate)
